@@ -1,6 +1,6 @@
 # Week 1: NumPy + ML Math Foundations
 
-**Total:** 10 hours | **Focus:** Build ML muscle memory with NumPy
+**Total:** ~14 hours (no hurry — depth over speed) | **Focus:** Build ML muscle memory and expert-level intuition with NumPy via many anchor tasks
 
 ## Learning Objectives
 
@@ -25,11 +25,11 @@ This week is structured using principles from *Accelerated Expertise: Training f
 
 | Session | Notebook | Duration | Focus | Deliverable |
 |---------|----------|----------|-------|-------------|
-| 1 | `01_numpy_basics.ipynb` | 2 hrs | NumPy fundamentals | 25+ exercises completed |
-| 2 | `02_broadcasting_reshaping.ipynb` | 2 hrs | Broadcasting & reshaping | Visualization notebook |
-| 3 | `03_linear_algebra.ipynb` | 2 hrs | Linear algebra operations | Matrix ops from scratch |
-| 4 | `04_gradient_computation.ipynb` | 2 hrs | Gradient computation | Manual gradient descent |
-| 5 | `05_linear_regression.ipynb` | 2 hrs | Mini-project | Linear regression end-to-end |
+| 1 | `01_numpy_basics.ipynb` | ~3 hrs | 4 anchor cases: weighted sum, normalise, mask indexing, view vs copy | Reference exercises + reflections |
+| 2 | `02_broadcasting_reshaping.ipynb` | ~3 hrs | 3 anchor cases: center features, row norm, outer product | Predict shapes, visualization |
+| 3 | `03_linear_algebra.ipynb` | ~3 hrs | 3 anchor cases: LR step, batch weights, numerical gradient check | Matrix ops from scratch |
+| 4 | `04_gradient_computation.ipynb` | ~3 hrs | 3 anchor cases: full GD, numerical check, learning rate | 1D/2D GD + LR from scratch |
+| 5 | `05_linear_regression.ipynb` | ~2.5 hrs | Capstone + debug buggy code + sklearn comparison | Linear regression end-to-end, R² > 0.8 |
 
 ## Getting Started
 
