@@ -11,6 +11,16 @@ By end of Week 1, you should be able to:
 - Understand broadcasting, reshaping, and matrix operations intuitively
 - Code a working linear regression with gradient descent
 
+## Design: Accelerated Expertise
+
+This week is structured using principles from *Accelerated Expertise: Training for High Proficiency in a Complex World* (Hoffman et al.) to speed up transfer to real ML work:
+
+- **Case-first:** Each session starts with a concrete ML-style task (e.g. weighted sum, center features, one gradient step) instead of a long list of basics. You build the mental model by doing the task, then see the pattern again in later sessions.
+- **Worked example → your turn:** We show one full solution with expert reasoning (shapes, why this op), then you do a variation (different sizes, same idea).
+- **Just-in-time concepts:** Short “Concept” boxes (array, shape, broadcasting, matvec) appear when a case needs them, not in a big block up front.
+- **Sensemaking:** After each case you reflect (“What would break if…?”, “What cues told you…?”) instead of only checking a single correct answer. This supports learning from messy, real-world feedback later.
+- **Connections:** Sessions 3–5 explicitly link back to earlier cases (“This is the same as Session 4”; “predict is the same as Session 3”) so knowledge stays flexible and transferable.
+
 ## Session Schedule
 
 | Session | Notebook | Duration | Focus | Deliverable |
@@ -35,7 +45,9 @@ Then open the notebooks in order, starting with `01_numpy_basics.ipynb`.
 
 | Criterion | Target | Notes |
 |-----------|--------|-------|
-| NumPy-100 exercises | 25+ completed | Understand, don't copy |
+| Mental model | Can explain why a piece of ML code uses a given shape or operation | e.g. “We use (n,1) so broadcasting adds one bias per row” |
+| Debugging | Can fix a shape error using your mental model | Inspect shapes, match dimensions, don’t guess |
+| NumPy-100 / reference | Completed anchor cases + reference exercises as needed | Understand, don’t copy |
 | Broadcasting | Can predict output shapes | No guessing |
 | Matrix ops | 3+ implemented from scratch | Verify with NumPy |
 | Gradient descent | Converges on test data | Loss decreases monotonically |
