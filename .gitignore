@@ -30,3 +30,8 @@ Thumbs.db
 # Cursor / IDE metadata
 .cursor/
 
+# Generated questions-only notebooks (produced by scripts/strip_answers.py).
+# Commit the contents of this folder to the main branch instead.
+questions/
+
+.claude/
