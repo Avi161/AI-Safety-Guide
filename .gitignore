@@ -34,3 +34,4 @@ Thumbs.db
 # Commit the contents of this folder to the main branch instead.
 questions/
 
+/.claude
