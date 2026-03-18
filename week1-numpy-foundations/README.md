@@ -15,7 +15,7 @@ By end of Week 1, you should be able to:
 
 | Session | Notebook | Duration | Focus | Deliverable |
 |---------|----------|----------|-------|-------------|
-| 1 | `01_numpy_basics.ipynb` | 2 hrs | NumPy fundamentals | 25+ exercises completed |
+| 1 | `01_numpy_basics.ipynb` | 2 hrs | NumPy fundamentals | 80+ exercises (NumPy 100) |
 | 2 | `02_broadcasting_reshaping.ipynb` | 2 hrs | Broadcasting & reshaping | Visualization notebook |
 | 3 | `03_linear_algebra.ipynb` | 2 hrs | Linear algebra operations | Matrix ops from scratch |
 | 4 | `04_gradient_computation.ipynb` | 2 hrs | Gradient computation | Manual gradient descent |
@@ -35,12 +35,12 @@ Then open the notebooks in order, starting with `01_numpy_basics.ipynb`.
 
 | Criterion | Target | Notes |
 |-----------|--------|-------|
-| NumPy-100 exercises | 25+ completed | Understand, don't copy |
+| NumPy-100 exercises | 80+ completed | [numpy.org](https://numpy.org/doc/stable/) |
+| MSE gradient | Derived by hand, verified numerically | Session 4 |
+| Linear regression | NumPy-only, gradient descent | No sklearn for core |
+| California Housing | Fit model, log train/test loss | Session 5 |
 | Broadcasting | Can predict output shapes | No guessing |
-| Matrix ops | 3+ implemented from scratch | Verify with NumPy |
-| Gradient descent | Converges on test data | Loss decreases monotonically |
-| Linear regression | R² > 0.8 on synthetic data | Match sklearn |
-| Documentation | This README + notebook reflections | For future reference |
+| Documentation | Gradient & broadcasting in plain English | Task 5.3 |
 
 ## Common Issues & Solutions
 
@@ -69,12 +69,13 @@ week1-numpy-foundations/
 
 ## Completion Checklist
 
-- [ ] NumPy fundamentals (25+ exercises)
+- [ ] NumPy 100: 80+ exercises completed (Q1–Q80 in notebook)
+- [ ] MSE gradient derived by hand, verified with numerical gradient check
+- [ ] Linear regression with gradient descent (NumPy only)
+- [ ] California Housing: fit model, log train/test loss
+- [ ] Document: what is a gradient? what does broadcasting do? (plain English)
 - [ ] Broadcasting visualization saved to `images/`
-- [ ] Matrix multiply, outer product, transpose implemented from scratch
-- [ ] Gradient descent converges on 1D and 2D functions
-- [ ] `LinearRegressionScratch` class fully implemented
-- [ ] R² > 0.8 on synthetic data
+- [ ] R² > 0.8 on synthetic data; compare with sklearn
 - [ ] All reflection sections filled in
 
 ## Before Week 2
